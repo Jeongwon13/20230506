@@ -1,0 +1,46 @@
+2023-04-25 21:08:19 [INFO] 초기화 필터 생성
+2023-04-25 21:08:21 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-25 21:08:22 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@229a514a, edu.kh.comm.board.model.vo.BoardType@8b6bbae, edu.kh.comm.board.model.vo.BoardType@536f7dd5]
+2023-04-25 21:08:22 [INFO] Running Time : 763ms
+2023-04-25 21:08:22 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-04-25 21:08:22 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-25 21:08:22 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-04-25 21:08:22 [INFO] Running Time : 6ms
+2023-04-25 21:08:22 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-04-25 21:08:22 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-25 21:08:22 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-04-25 21:08:22 [INFO] Running Time : 5ms
+2023-04-25 21:08:22 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-04-25 21:08:28 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-25 21:08:28 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-04-25 21:08:28 [INFO] Running Time : 4ms
+2023-04-25 21:08:28 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-04-25 21:08:38 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-25 21:08:38 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-04-25 21:08:38 [INFO] Running Time : 3ms
+2023-04-25 21:08:38 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+

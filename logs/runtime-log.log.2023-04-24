@@ -1,0 +1,97 @@
+2023-04-24 20:38:22 [INFO] 초기화 필터 생성
+2023-04-24 20:38:23 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-24 20:38:24 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-24 20:38:24 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@1769d207, edu.kh.comm.board.model.vo.BoardType@35c542fb, edu.kh.comm.board.model.vo.BoardType@4536f06a]
+2023-04-24 20:38:24 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@11935d3b, edu.kh.comm.board.model.vo.BoardType@2092bf5f, edu.kh.comm.board.model.vo.BoardType@59397ef7]
+2023-04-24 20:38:24 [INFO] Running Time : 490ms
+2023-04-24 20:38:24 [INFO] Running Time : 833ms
+2023-04-24 20:38:24 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-04-24 20:38:24 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-04-24 20:38:24 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-24 20:38:24 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK     FROM MEMBER_S     WHERE SECESSION_FL = 'N'     ORDER BY MEMBER_NO
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+2023-04-24 20:38:24 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-04-24 20:38:25 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-24 20:38:25 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK     FROM MEMBER_S     WHERE SECESSION_FL = 'N'     ORDER BY MEMBER_NO
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+2023-04-24 20:38:25 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-04-24 20:38:30 [INFO] 로그인 기능 수행됨
+2023-04-24 20:38:30 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=user01@kh.or.kr, memberPw=pass01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-04-24 20:38:30 [DEBUG] pass01! / $2a$10$RLH.9bUxJUIjTEmj1ycZpeszk9C0542PgxzzrysXT9LTCTfk5xgB.
+2023-04-24 20:38:30 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve memberMapper.login-Inline
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK ,MEMBER_TEL,          MEMBER_ADDR, PROFILE_IMG,        TO_CHAR( ENROLL_DT, 'YYYY-MM-DD HH24:MI:SS') AS ENROLL_DT, MEMBER_PW   FROM MEMBER_S   WHERE MEMBER_EMAIL = ?      AND SECESSION_FL = 'N'
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+2023-04-24 20:38:30 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-04-24 20:38:31 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-04-24 20:38:31 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK     FROM MEMBER_S     WHERE SECESSION_FL = 'N'     ORDER BY MEMBER_NO
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+2023-04-24 20:38:31 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
